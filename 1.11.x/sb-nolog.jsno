@@ -667,7 +667,7 @@
   },
   "log": {
     "disabled": false,
-    "level": "errer",
+    "level": "error",
     "timestamp": true
   }
 }
