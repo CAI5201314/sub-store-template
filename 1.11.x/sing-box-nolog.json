@@ -668,6 +668,6 @@
   "log": {
     "disabled": false,
     "level": "error",
-    "timestamp": true
+    "timestamp": false
   }
 }
