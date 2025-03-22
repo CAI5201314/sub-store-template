@@ -86,12 +86,12 @@
         "action": "hijack-dns"
       },
       {
-        "rule_set": "ad_domain",
-        "action": "reject",
-        "outbound": "ad"
+        "ip_is_private": true,
+        "action": "route",
+        "outbound": "direct"
       },
       {
-        "ip_is_private": true,
+        "clash_mode": "ad_domain",
         "action": "route",
         "outbound": "direct"
       },
