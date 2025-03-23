@@ -194,7 +194,7 @@
         "tag": "adblock",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.com/REIJI007/AdBlock_Rule_For_Sing-box/releases/download/release-1742657261/adblock_reject.srs",
+        "url": "https://www.adblock-singbox-srs.reiji007.org",
         "download_detour": "direct"
       },
       {
