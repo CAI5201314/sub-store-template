@@ -63,10 +63,6 @@
   "route": {
     "rules": [
       {
-        "rule_set": "adblock",
-        "action": "reject"
-      },
-      {
         "action": "sniff",
         "sniffer": [
           "http",
@@ -98,6 +94,10 @@
         "clash_mode": "Global",
         "action": "route",
         "outbound": "GLOBAL"
+      },
+      {
+        "rule_set": "adblock",
+        "action": "reject"
       },
       {
         "clash_mode": "Direct",
