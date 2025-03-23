@@ -73,6 +73,13 @@
         "timeout": "500ms"
       },
       {
+        "rule set": [
+          "adblock"
+        ],
+         "action": "reject",
+         "method": "drop"
+      },
+      {
         "type": "logical",
         "mode": "or",
         "rules": [
@@ -94,11 +101,6 @@
         "clash_mode": "Global",
         "action": "route",
         "outbound": "GLOBAL"
-      },
-      {
-        "action": "reject",
-        "method": "drop",
-        "rule set": ["adblock"]
       },
       {
         "clash_mode": "Direct",
