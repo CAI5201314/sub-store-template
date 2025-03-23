@@ -76,8 +76,8 @@
         "rule set": [
           "adblock"
         ],
-         "action": "reject",
-         "method": "drop"
+          "action": "reject",
+          "method": "drop"
       },
       {
         "type": "logical",
