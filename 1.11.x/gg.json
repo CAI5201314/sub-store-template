@@ -64,7 +64,7 @@
     "rules": [
       {
         "rule_set": "adblock",
-        "action": "reject",
+        "action": "reject"
       },
       {
         "action": "sniff",
