@@ -64,8 +64,7 @@
     "rules": [
       {
         "rule_set": "adblock",
-        "action": "route",
-        "outbound": "ad"
+        "action": "reject",
       },
       {
         "action": "sniff",
@@ -637,10 +636,6 @@
       ],
       "default": "direct"
     },
-    {
-  "tag": "ad",
-  "type": "block"
-    }
     {
       "tag": "direct",
       "type": "direct"
