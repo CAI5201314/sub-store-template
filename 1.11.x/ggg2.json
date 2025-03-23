@@ -96,8 +96,9 @@
         "outbound": "GLOBAL"
       },
       {
-        "rule_set": "adblock",
-        "action": "reject"
+        "action": "reject",
+        "method": "drop",
+        "rule set": ["adblock"]
       },
       {
         "clash_mode": "Direct",
